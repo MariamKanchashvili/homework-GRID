@@ -1,0 +1,25 @@
+body{
+  background-image:url(./თევზები/Frame\ \(1\).png);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+
+
+
+
+img{
+    width: 20px;
+    height: 20px;
+}
+.fish{
+    width: 50vw;
+    height: 100vh;
+}
