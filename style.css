@@ -1,25 +1,27 @@
-body{
+ /* body{
   background-image:url(./თევზები/Frame\ \(1\).png);
-  height: 100vh;
-  background-size: cover;
-}
+  height: 100vh;} */
+  /* background-size: cover; */
+  /* background-position: center center;  }
 
-.container{
+  .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   margin: 10px;
 
   
-}
+} 
 
-img{
+ img{
     width: 20px;
     height: 20px;
-}
-.fish{
+
+} 
+ .fish{
     width: 60vw;
     height: 70vh;
+    margin-left: 255px
 }
 .item{
 border: 1px solid white;
@@ -30,13 +32,60 @@ height: 37px;
 margin: 20px;
 border-radius: 4px;
 
-}
 
+}
+ 
 .items{
     border: 2px solid none;
-    align-content: center;
-}
+     display: grid;
+  grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+  width: 400px;
+  margin: 50px auto;
+} 
 
-span{
+ span{
     margin-left: 10px;
 }
+h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+  line-height: 1.6;}
+
+.first-side{
+  max-width: 500px;
+}  
+
+item img {
+  width: 16px;
+  height: 16px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hhkhb */
