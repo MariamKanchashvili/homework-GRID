@@ -1,91 +1,47 @@
- /* body{
-  background-image:url(./თევზები/Frame\ \(1\).png);
-  height: 100vh;} */
-  /* background-size: cover; */
-  /* background-position: center center;  }
-
-  .container{
+.icon{
+    width:20px;
+    height:20px
+}
+body{
+    background-image: url(./თევზები/Frame\ \(1\).png);
+    height: 100vh;
+}
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  margin: 10px;
-
-  
-} 
-
- img{
-    width: 20px;
-    height: 20px;
-
-} 
- .fish{
-    width: 60vw;
-    height: 70vh;
-    margin-left: 255px
+    margin: 0 20px;
+    max-width: 1800px;
+}
+.items{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 15px;
+  margin-top: 45px;
 }
 .item{
-border: 1px solid white;
-color: white;
-padding: 15px;
-width: 200px;
-height: 37px;
-margin: 20px;
-border-radius: 4px;
-
-
-}
- 
-.items{
-    border: 2px solid none;
-     display: grid;
-  grid-template-columns: repeat(2, 1fr);
-   gap: 15px;
-  width: 400px;
-  margin: 50px auto;
-} 
-
- span{
-    margin-left: 10px;
-}
-h2 {
+    border: 1px solid white;
+    border-radius: 4px;
   color: white;
-  font-size: 36px;
-  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+padding:15px;
+justify-content: flex-start;
+align-items: center;
+gap:5px;
+display: flex;
+margin: 5px;
 }
+h2{
+    color: white;
+    font-size:36px;
+    font-family: Arial, Helvetica, sans-serif;
 
-p {
-  color: rgba(255,255,255,0.7);
-  font-size: 14px;
-  line-height: 1.6;}
-
-.first-side{
-  max-width: 500px;
-}  
-
-item img {
-  width: 16px;
-  height: 16px;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* hhkhb */
+}
+p{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+.secont-side{
+    margin-left: 30px;
+}
