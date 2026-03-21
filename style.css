@@ -9,14 +9,9 @@ body{
     justify-content: center;
     align-items: center;
   margin: 10px;
+
   
 }
-
-
-
-
-
-
 
 img{
     width: 20px;
@@ -25,4 +20,23 @@ img{
 .fish{
     width: 60vw;
     height: 70vh;
+}
+.item{
+border: 1px solid white;
+color: white;
+padding: 15px;
+width: 200px;
+height: 37px;
+margin: 20px;
+border-radius: 4px;
+
+}
+
+.items{
+    border: 2px solid none;
+    align-content: center;
+}
+
+span{
+    margin-left: 10px;
 }
