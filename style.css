@@ -1,11 +1,14 @@
 body{
   background-image:url(./თევზები/Frame\ \(1\).png);
+  height: 100vh;
+  background-size: cover;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+  margin: 10px;
   
 }
 
@@ -20,6 +23,6 @@ img{
     height: 20px;
 }
 .fish{
-    width: 50vw;
-    height: 100vh;
+    width: 60vw;
+    height: 70vh;
 }
