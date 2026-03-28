@@ -15,14 +15,16 @@ background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20px;
-    max-width: 1500px;
+    margin: auto;
+    max-width: 1100px;
+    width: 100%;
+    flex: 1;
 }
 .items{
    display: grid;
    grid-template-columns: repeat(2,1fr);
-   gap: 15px;
-margin: 15px 0;
+   gap: 10px;
+
 }
 .item{
     border: 1px solid white;
@@ -63,5 +65,25 @@ background-image: linear-gradient( 111.6deg,  rgba(114,167,232,1) 9.4%, rgba(253
 display: flex;
   flex-direction: column; 
   gap: 15px;
-  max-width: 500px; 
+  max-width: 484px;
+}
+
+img{
+    max-width: 600px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:768px){
+.container{
+    flex-direction: column;
+overflow: auto;
+}
+}
+@media screen and (max-width:520px){
+    .items{
+   display: flex;
+   flex-wrap: wrap;
+  
+    }
 }
